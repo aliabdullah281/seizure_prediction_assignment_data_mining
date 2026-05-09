@@ -1,0 +1,767 @@
+{
+  "baseline": [
+    {
+      "Label": "D1 - Healthy vs Seizure (1:1) | Pipeline A",
+      "Accuracy": 0.5783333333333334,
+      "Precision": 0.6124401913875598,
+      "Recall": 0.4266666666666667,
+      "F1": 0.5029469548133595,
+      "PR-AUC": 0.6519286037472983
+    },
+    {
+      "Label": "D1 - Healthy vs Seizure (1:1) | Pipeline B",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "PR-AUC": 1.0
+    },
+    {
+      "Label": "D2 - Epileptic non-ictal vs Seizure (2:1) | Pipeline A",
+      "Accuracy": 0.7077777777777777,
+      "Precision": 0.9302325581395349,
+      "Recall": 0.13333333333333333,
+      "F1": 0.23323615160349853,
+      "PR-AUC": 0.5303598715804624
+    },
+    {
+      "Label": "D2 - Epileptic non-ictal vs Seizure (2:1) | Pipeline B",
+      "Accuracy": 0.9511111111111111,
+      "Precision": 0.9507042253521126,
+      "Recall": 0.9,
+      "F1": 0.9246575342465754,
+      "PR-AUC": 0.9789383405655261
+    },
+    {
+      "Label": "D3 - All classes vs Seizure (4:1) | Pipeline A",
+      "Accuracy": 0.8133333333333334,
+      "Precision": 0.9545454545454546,
+      "Recall": 0.07,
+      "F1": 0.13043478260869565,
+      "PR-AUC": 0.4240049085929129
+    },
+    {
+      "Label": "D3 - All classes vs Seizure (4:1) | Pipeline B",
+      "Accuracy": 0.9646666666666667,
+      "Precision": 0.9490909090909091,
+      "Recall": 0.87,
+      "F1": 0.9078260869565218,
+      "PR-AUC": 0.9704559306602935
+    }
+  ],
+  "regularisation": [
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 0.01,
+      "CV_F1_mean": 0.828675207784113,
+      "CV_F1_std": 0.005038561022685888,
+      "PR_AUC": 0.9989458844415133,
+      "Nonzero_coefs": 1
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 0.1,
+      "CV_F1_mean": 0.9804584254083798,
+      "CV_F1_std": 0.0006127707276628642,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 2
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 1.0,
+      "CV_F1_mean": 0.9962348310916086,
+      "CV_F1_std": 0.0010283205440243073,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 4
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 10.0,
+      "CV_F1_mean": 0.9983291562238931,
+      "CV_F1_std": 0.0011814649643885767,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 8
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 100.0,
+      "CV_F1_mean": 0.9987473899600899,
+      "CV_F1_std": 0.001023178939961912,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 9
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 0.01,
+      "CV_F1_mean": 0.8980534714236525,
+      "CV_F1_std": 0.004476947481285873,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 0.1,
+      "CV_F1_mean": 0.967283603849025,
+      "CV_F1_std": 0.0038251007357470216,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 1.0,
+      "CV_F1_mean": 0.9928615186982496,
+      "CV_F1_std": 0.0021574633320133826,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 10.0,
+      "CV_F1_mean": 0.9966530648278056,
+      "CV_F1_std": 0.0015685387059742916,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 100.0,
+      "CV_F1_mean": 0.9979098729676554,
+      "CV_F1_std": 0.0015646127888747942,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "Elastic Net",
+      "C": 0.01,
+      "CV_F1_mean": 0.8768621999691586,
+      "CV_F1_std": 0.008725281765249508,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 2
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "Elastic Net",
+      "C": 0.1,
+      "CV_F1_mean": 0.9695121551569618,
+      "CV_F1_std": 0.001654518741235366,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 7
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "Elastic Net",
+      "C": 1.0,
+      "CV_F1_mean": 0.9945524227383085,
+      "CV_F1_std": 0.0011903872750260928,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 10
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "Elastic Net",
+      "C": 10.0,
+      "CV_F1_mean": 0.9974895362358996,
+      "CV_F1_std": 0.002051501094756635,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 13
+    },
+    {
+      "Dataset": "D1 - Healthy vs Seizure (1:1)",
+      "Regularisation": "Elastic Net",
+      "C": 100.0,
+      "CV_F1_mean": 0.9983291562238931,
+      "CV_F1_std": 0.0011814649643885767,
+      "PR_AUC": 1.0,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 0.01,
+      "CV_F1_mean": 0.9036876750658708,
+      "CV_F1_std": 0.005008924672682794,
+      "PR_AUC": 0.9644018897708357,
+      "Nonzero_coefs": 1
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 0.1,
+      "CV_F1_mean": 0.920316921335597,
+      "CV_F1_std": 0.0033702887155412334,
+      "PR_AUC": 0.9666589984028106,
+      "Nonzero_coefs": 2
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 1.0,
+      "CV_F1_mean": 0.9458369862114253,
+      "CV_F1_std": 0.006165744915980735,
+      "PR_AUC": 0.9857048523776567,
+      "Nonzero_coefs": 11
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 10.0,
+      "CV_F1_mean": 0.9526299779986697,
+      "CV_F1_std": 0.006852916790752616,
+      "PR_AUC": 0.9892091954641882,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 100.0,
+      "CV_F1_mean": 0.9571355498721227,
+      "CV_F1_std": 0.004536167516401748,
+      "PR_AUC": 0.9895418789857049,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 0.01,
+      "CV_F1_mean": 0.8134586956353728,
+      "CV_F1_std": 0.004521203123708756,
+      "PR_AUC": 0.9625043348740531,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 0.1,
+      "CV_F1_mean": 0.8955769063670441,
+      "CV_F1_std": 0.007149269194093852,
+      "PR_AUC": 0.9694280847569315,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 1.0,
+      "CV_F1_mean": 0.924238607658101,
+      "CV_F1_std": 0.004582270772202569,
+      "PR_AUC": 0.9789383405655261,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 10.0,
+      "CV_F1_mean": 0.9421143237729298,
+      "CV_F1_std": 0.009739530907292638,
+      "PR_AUC": 0.9856860648855172,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 100.0,
+      "CV_F1_mean": 0.950921573954672,
+      "CV_F1_std": 0.0048088729423672,
+      "PR_AUC": 0.9885018204231966,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "Elastic Net",
+      "C": 0.01,
+      "CV_F1_mean": 0.8130427040082431,
+      "CV_F1_std": 0.005147532558174669,
+      "PR_AUC": 0.9644018897708357,
+      "Nonzero_coefs": 1
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "Elastic Net",
+      "C": 0.1,
+      "CV_F1_mean": 0.9062089679054699,
+      "CV_F1_std": 0.006106682048811025,
+      "PR_AUC": 0.9677953543971508,
+      "Nonzero_coefs": 9
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "Elastic Net",
+      "C": 1.0,
+      "CV_F1_mean": 0.9284970117412886,
+      "CV_F1_std": 0.0044082477091773875,
+      "PR_AUC": 0.9809663063310511,
+      "Nonzero_coefs": 14
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "Elastic Net",
+      "C": 10.0,
+      "CV_F1_mean": 0.9462329203831102,
+      "CV_F1_std": 0.008724744516728193,
+      "PR_AUC": 0.9868186832935142,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D2 - Epileptic non-ictal vs Seizure (2:1)",
+      "Regularisation": "Elastic Net",
+      "C": 100.0,
+      "CV_F1_mean": 0.9494914994125715,
+      "CV_F1_std": 0.005649800446688875,
+      "PR_AUC": 0.9883399634111059,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 0.01,
+      "CV_F1_mean": 0.7712730080055642,
+      "CV_F1_std": 0.016625461445040766,
+      "PR_AUC": 0.9458850272464003,
+      "Nonzero_coefs": 2
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 0.1,
+      "CV_F1_mean": 0.8595598703536337,
+      "CV_F1_std": 0.004966370820825796,
+      "PR_AUC": 0.9614556162841438,
+      "Nonzero_coefs": 6
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 1.0,
+      "CV_F1_mean": 0.9221810548540906,
+      "CV_F1_std": 0.011214048971117118,
+      "PR_AUC": 0.9783496062457611,
+      "Nonzero_coefs": 13
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 10.0,
+      "CV_F1_mean": 0.9321692552242532,
+      "CV_F1_std": 0.00620187130901488,
+      "PR_AUC": 0.9798891004472933,
+      "Nonzero_coefs": 14
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L1 (Lasso)",
+      "C": 100.0,
+      "CV_F1_mean": 0.9365503069601,
+      "CV_F1_std": 0.008633701068874984,
+      "PR_AUC": 0.980636318841257,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 0.01,
+      "CV_F1_mean": 0.6469213090973208,
+      "CV_F1_std": 0.010466192087054493,
+      "PR_AUC": 0.9486952643577434,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 0.1,
+      "CV_F1_mean": 0.8177370357228594,
+      "CV_F1_std": 0.00875186858447789,
+      "PR_AUC": 0.9603333246415982,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 1.0,
+      "CV_F1_mean": 0.8906927624414019,
+      "CV_F1_std": 0.0037779162878079646,
+      "PR_AUC": 0.9704559306602935,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 10.0,
+      "CV_F1_mean": 0.9216229633265249,
+      "CV_F1_std": 0.011600961499589836,
+      "PR_AUC": 0.9756073542459683,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "L2 (Ridge)",
+      "C": 100.0,
+      "CV_F1_mean": 0.9271361740962366,
+      "CV_F1_std": 0.008909861751343834,
+      "PR_AUC": 0.9774864030855851,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "Elastic Net",
+      "C": 0.01,
+      "CV_F1_mean": 0.6668997609692267,
+      "CV_F1_std": 0.0118455781497759,
+      "PR_AUC": 0.9451202068370873,
+      "Nonzero_coefs": 3
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "Elastic Net",
+      "C": 0.1,
+      "CV_F1_mean": 0.8325152318418764,
+      "CV_F1_std": 0.010882475019591907,
+      "PR_AUC": 0.9610889677378758,
+      "Nonzero_coefs": 11
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "Elastic Net",
+      "C": 1.0,
+      "CV_F1_mean": 0.8978527356169602,
+      "CV_F1_std": 0.007435606880183042,
+      "PR_AUC": 0.9718363134868533,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "Elastic Net",
+      "C": 10.0,
+      "CV_F1_mean": 0.9243627816304133,
+      "CV_F1_std": 0.010719966545148524,
+      "PR_AUC": 0.9769780116399469,
+      "Nonzero_coefs": 15
+    },
+    {
+      "Dataset": "D3 - All classes vs Seizure (4:1)",
+      "Regularisation": "Elastic Net",
+      "C": 100.0,
+      "CV_F1_mean": 0.9288393281279035,
+      "CV_F1_std": 0.008574717670621124,
+      "PR_AUC": 0.9788581801229234,
+      "Nonzero_coefs": 15
+    }
+  ],
+  "imbalance": [
+    {
+      "Dataset": "D2",
+      "Technique": "No Resampling + no weight",
+      "Precision": 0.9302325581395349,
+      "Recall": 0.13333333333333333,
+      "F1": 0.23323615160349853,
+      "PR-AUC": 0.5303598715804624
+    },
+    {
+      "Dataset": "D2",
+      "Technique": "No Resampling + class_weight=balanced",
+      "Precision": 0.43944636678200694,
+      "Recall": 0.42333333333333334,
+      "F1": 0.4312393887945671,
+      "PR-AUC": 0.5262677951628965
+    },
+    {
+      "Dataset": "D2",
+      "Technique": "SMOTE + no weight",
+      "Precision": 0.45993031358885017,
+      "Recall": 0.44,
+      "F1": 0.4497444633730835,
+      "PR-AUC": 0.545341263516724
+    },
+    {
+      "Dataset": "D2",
+      "Technique": "SMOTE + class_weight=balanced",
+      "Precision": 0.45993031358885017,
+      "Recall": 0.44,
+      "F1": 0.4497444633730835,
+      "PR-AUC": 0.545341263516724
+    },
+    {
+      "Dataset": "D2",
+      "Technique": "Undersampling + no weight",
+      "Precision": 0.431438127090301,
+      "Recall": 0.43,
+      "F1": 0.4307178631051753,
+      "PR-AUC": 0.5268219009959532
+    },
+    {
+      "Dataset": "D2",
+      "Technique": "Undersampling + class_weight=balanced",
+      "Precision": 0.431438127090301,
+      "Recall": 0.43,
+      "F1": 0.4307178631051753,
+      "PR-AUC": 0.5268219009959532
+    },
+    {
+      "Dataset": "D3",
+      "Technique": "No Resampling + no weight",
+      "Precision": 0.9545454545454546,
+      "Recall": 0.07,
+      "F1": 0.13043478260869565,
+      "PR-AUC": 0.4240049085929129
+    },
+    {
+      "Dataset": "D3",
+      "Technique": "No Resampling + class_weight=balanced",
+      "Precision": 0.2536997885835095,
+      "Recall": 0.4,
+      "F1": 0.31047865459249674,
+      "PR-AUC": 0.4011004016608784
+    },
+    {
+      "Dataset": "D3",
+      "Technique": "SMOTE + no weight",
+      "Precision": 0.297008547008547,
+      "Recall": 0.4633333333333333,
+      "F1": 0.3619791666666667,
+      "PR-AUC": 0.44523846455472726
+    },
+    {
+      "Dataset": "D3",
+      "Technique": "SMOTE + class_weight=balanced",
+      "Precision": 0.297008547008547,
+      "Recall": 0.4633333333333333,
+      "F1": 0.3619791666666667,
+      "PR-AUC": 0.44523846455472726
+    },
+    {
+      "Dataset": "D3",
+      "Technique": "Undersampling + no weight",
+      "Precision": 0.2610619469026549,
+      "Recall": 0.3933333333333333,
+      "F1": 0.31382978723404253,
+      "PR-AUC": 0.4120147895319206
+    },
+    {
+      "Dataset": "D3",
+      "Technique": "Undersampling + class_weight=balanced",
+      "Precision": 0.2610619469026549,
+      "Recall": 0.3933333333333333,
+      "F1": 0.31382978723404253,
+      "PR-AUC": 0.4120147895319206
+    }
+  ],
+  "summary": [
+    {
+      "Dataset": "D1",
+      "Regularisation": "L1 (Lasso)",
+      "Best C": 100.0,
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "PR-AUC": 1.0
+    },
+    {
+      "Dataset": "D1",
+      "Regularisation": "L2 (Ridge)",
+      "Best C": 100.0,
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "PR-AUC": 1.0
+    },
+    {
+      "Dataset": "D1",
+      "Regularisation": "Elastic Net",
+      "Best C": 100.0,
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "PR-AUC": 1.0
+    },
+    {
+      "Dataset": "D2",
+      "Regularisation": "L1 (Lasso)",
+      "Best C": 100.0,
+      "Accuracy": 0.97,
+      "Precision": 0.9596,
+      "Recall": 0.95,
+      "F1": 0.9548,
+      "PR-AUC": 0.9895
+    },
+    {
+      "Dataset": "D2",
+      "Regularisation": "L2 (Ridge)",
+      "Best C": 100.0,
+      "Accuracy": 0.9633,
+      "Precision": 0.9435,
+      "Recall": 0.9467,
+      "F1": 0.9451,
+      "PR-AUC": 0.9885
+    },
+    {
+      "Dataset": "D2",
+      "Regularisation": "Elastic Net",
+      "Best C": 100.0,
+      "Accuracy": 0.96,
+      "Precision": 0.94,
+      "Recall": 0.94,
+      "F1": 0.94,
+      "PR-AUC": 0.9883
+    },
+    {
+      "Dataset": "D3",
+      "Regularisation": "L1 (Lasso)",
+      "Best C": 100.0,
+      "Accuracy": 0.972,
+      "Precision": 0.93,
+      "Recall": 0.93,
+      "F1": 0.93,
+      "PR-AUC": 0.9806
+    },
+    {
+      "Dataset": "D3",
+      "Regularisation": "L2 (Ridge)",
+      "Best C": 100.0,
+      "Accuracy": 0.9713,
+      "Precision": 0.9356,
+      "Recall": 0.92,
+      "F1": 0.9277,
+      "PR-AUC": 0.9775
+    },
+    {
+      "Dataset": "D3",
+      "Regularisation": "Elastic Net",
+      "Best C": 100.0,
+      "Accuracy": 0.9727,
+      "Precision": 0.939,
+      "Recall": 0.9233,
+      "F1": 0.9311,
+      "PR-AUC": 0.9789
+    }
+  ],
+  "q1_pipeline": [
+    {
+      "Dataset": "D1",
+      "Pipeline": "Pipeline A",
+      "Accuracy": 0.5783333333333334,
+      "Precision": 0.6124401913875598,
+      "Recall": 0.4266666666666667,
+      "F1": 0.5029469548133595,
+      "PR-AUC": 0.6519286037472983
+    },
+    {
+      "Dataset": "D1",
+      "Pipeline": "Pipeline B",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "PR-AUC": 1.0
+    },
+    {
+      "Dataset": "D2",
+      "Pipeline": "Pipeline A",
+      "Accuracy": 0.7077777777777777,
+      "Precision": 0.9302325581395349,
+      "Recall": 0.13333333333333333,
+      "F1": 0.23323615160349853,
+      "PR-AUC": 0.5303598715804624
+    },
+    {
+      "Dataset": "D2",
+      "Pipeline": "Pipeline B",
+      "Accuracy": 0.9511111111111111,
+      "Precision": 0.9507042253521126,
+      "Recall": 0.9,
+      "F1": 0.9246575342465754,
+      "PR-AUC": 0.9789383405655261
+    },
+    {
+      "Dataset": "D3",
+      "Pipeline": "Pipeline A",
+      "Accuracy": 0.8133333333333334,
+      "Precision": 0.9545454545454546,
+      "Recall": 0.07,
+      "F1": 0.13043478260869565,
+      "PR-AUC": 0.4240049085929129
+    },
+    {
+      "Dataset": "D3",
+      "Pipeline": "Pipeline B",
+      "Accuracy": 0.9646666666666667,
+      "Precision": 0.9490909090909091,
+      "Recall": 0.87,
+      "F1": 0.9078260869565218,
+      "PR-AUC": 0.9704559306602935
+    }
+  ],
+  "q4_interaction": [
+    {
+      "Regularisation": "L1 (Lasso)",
+      "Imbalance Technique": "SMOTE",
+      "F1": 0.9272151898734177
+    },
+    {
+      "Regularisation": "L1 (Lasso)",
+      "Imbalance Technique": "Undersampling",
+      "F1": 0.9344
+    },
+    {
+      "Regularisation": "L1 (Lasso)",
+      "Imbalance Technique": "Class Weights",
+      "F1": 0.926984126984127
+    },
+    {
+      "Regularisation": "L1 (Lasso)",
+      "Imbalance Technique": "No Resampling",
+      "F1": 0.9230769230769231
+    },
+    {
+      "Regularisation": "L2 (Ridge)",
+      "Imbalance Technique": "SMOTE",
+      "F1": 0.9305331179321487
+    },
+    {
+      "Regularisation": "L2 (Ridge)",
+      "Imbalance Technique": "Undersampling",
+      "F1": 0.9413680781758957
+    },
+    {
+      "Regularisation": "L2 (Ridge)",
+      "Imbalance Technique": "Class Weights",
+      "F1": 0.9383116883116883
+    },
+    {
+      "Regularisation": "L2 (Ridge)",
+      "Imbalance Technique": "No Resampling",
+      "F1": 0.9078260869565218
+    },
+    {
+      "Regularisation": "Elastic Net",
+      "Imbalance Technique": "SMOTE",
+      "F1": 0.9309791332263242
+    },
+    {
+      "Regularisation": "Elastic Net",
+      "Imbalance Technique": "Undersampling",
+      "F1": 0.940032414910859
+    },
+    {
+      "Regularisation": "Elastic Net",
+      "Imbalance Technique": "Class Weights",
+      "F1": 0.9339774557165862
+    },
+    {
+      "Regularisation": "Elastic Net",
+      "Imbalance Technique": "No Resampling",
+      "F1": 0.9153713298791019
+    }
+  ]
+}
