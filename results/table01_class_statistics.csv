@@ -1,0 +1,6 @@
+Class,Description,Mean,Std,Min,Max,Skew,Kurt
+Z,Healthy - eyes open,-6.248,48.203,-287.82,286.914,0.034,0.286
+O,Healthy - eyes closed,-12.535,70.483,-421.999,362.252,-0.036,0.583
+N,Epileptic - seizure-free (non-focal),-8.91,59.283,-408.035,616.718,-0.046,1.804
+F,Epileptic - seizure-free (focal),-6.18,90.269,-1171.917,2102.731,3.971,76.286
+S,Seizure (ictal),-4.629,341.409,-2037.477,2075.772,-0.37,2.839
